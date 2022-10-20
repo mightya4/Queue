@@ -19,5 +19,14 @@ public class JavaQueue {
 
         System.out.println(books);
 
+        //Add book to queue
+        books.offer("The Shining");
+
+        //Print and remove first element
+        System.out.println(books.poll());
+
+        //Print Books Collection
+        System.out.println(books);
+
     }
 }
